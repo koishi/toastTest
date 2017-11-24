@@ -13,6 +13,7 @@
 		FA95F3061FC7B49100EB76FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3051FC7B49100EB76FB /* Assets.xcassets */; };
 		FA95F3091FC7B49100EB76FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3071FC7B49100EB76FB /* LaunchScreen.storyboard */; };
 		FA95F3111FC7B4A800EB76FB /* toast.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3101FC7B4A800EB76FB /* toast.xib */; };
+		FA95F3131FC7C0DB00EB76FB /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F3121FC7C0DB00EB76FB /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA95F3081FC7B49100EB76FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA95F30A1FC7B49100EB76FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA95F3101FC7B4A800EB76FB /* toast.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toast.xib; sourceTree = "<group>"; };
+		FA95F3121FC7C0DB00EB76FB /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FA95F3051FC7B49100EB76FB /* Assets.xcassets */,
 				FA95F3071FC7B49100EB76FB /* LaunchScreen.storyboard */,
 				FA95F30A1FC7B49100EB76FB /* Info.plist */,
+				FA95F3121FC7C0DB00EB76FB /* ToastView.swift */,
 			);
 			path = toastTest;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA95F3011FC7B49100EB76FB /* ViewController.swift in Sources */,
+				FA95F3131FC7C0DB00EB76FB /* ToastView.swift in Sources */,
 				FA95F2FF1FC7B49100EB76FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

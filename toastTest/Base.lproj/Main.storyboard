@@ -19,17 +19,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAA-EI-1tr">
-                                <rect key="frame" x="141" y="319" width="92" height="30"/>
+                                <rect key="frame" x="141" y="220" width="92" height="30"/>
                                 <state key="normal" title="トースト表示"/>
                                 <connections>
                                     <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJa-lJ-P1d"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pAA-EI-1tr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IGO-o9-R5k"/>
-                            <constraint firstItem="pAA-EI-1tr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y3B-FN-knL"/>
+                            <constraint firstItem="pAA-EI-1tr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="aLb-tP-NpD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
