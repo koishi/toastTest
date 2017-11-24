@@ -12,6 +12,7 @@
 		FA95F3041FC7B49100EB76FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3021FC7B49100EB76FB /* Main.storyboard */; };
 		FA95F3061FC7B49100EB76FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3051FC7B49100EB76FB /* Assets.xcassets */; };
 		FA95F3091FC7B49100EB76FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3071FC7B49100EB76FB /* LaunchScreen.storyboard */; };
+		FA95F3111FC7B4A800EB76FB /* toast.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA95F3101FC7B4A800EB76FB /* toast.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA95F3051FC7B49100EB76FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA95F3081FC7B49100EB76FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA95F30A1FC7B49100EB76FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA95F3101FC7B4A800EB76FB /* toast.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toast.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FA95F2FE1FC7B49100EB76FB /* AppDelegate.swift */,
 				FA95F3001FC7B49100EB76FB /* ViewController.swift */,
 				FA95F3021FC7B49100EB76FB /* Main.storyboard */,
+				FA95F3101FC7B4A800EB76FB /* toast.xib */,
 				FA95F3051FC7B49100EB76FB /* Assets.xcassets */,
 				FA95F3071FC7B49100EB76FB /* LaunchScreen.storyboard */,
 				FA95F30A1FC7B49100EB76FB /* Info.plist */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					FA95F2FA1FC7B49100EB76FB = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA95F3091FC7B49100EB76FB /* LaunchScreen.storyboard in Resources */,
+				FA95F3111FC7B4A800EB76FB /* toast.xib in Resources */,
 				FA95F3061FC7B49100EB76FB /* Assets.xcassets in Resources */,
 				FA95F3041FC7B49100EB76FB /* Main.storyboard in Resources */,
 			);
@@ -274,12 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 234G69CT2G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = toastTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ScroolApp.toastTest;
+				PRODUCT_BUNDLE_IDENTIFIER = toastTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 234G69CT2G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = toastTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ScroolApp.toastTest;
+				PRODUCT_BUNDLE_IDENTIFIER = toastTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
